@@ -80,3 +80,20 @@ for (let i = 0; i < users.length; i++) {
 }
 
 console.log(countries);
+
+
+// Homework 2
+let arr = [4, 16, 19, 22, 11, 144, 967, 19124];
+let toq = 0;
+let juft = 0;
+
+for (let check = 0; check < arr.length; check++) {
+  if (arr[check] % 2 == 0) {
+    juft++;
+  } else {
+    toq++;
+  }
+}
+
+console.log('Juft raqamlar:',juft);
+console.log('Toq raqamlar:',toq);
